@@ -1,0 +1,33 @@
+/*Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Source Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+.vis-head {
+    margin: 0;
+    border: none;
+    background-image: url(../images/cat-back-1.jpg);
+    background-position: 20% 35%;
+    background-size: 100vw;
+    color: white;
+}
+
+.vis p {
+    margin: 0 10vw;
+    text-align: center;
+}
+
+.mis-head {
+    margin: 0;
+    border: none;
+    background-image: url(../images/dog-back-1.jpg);
+    background-position: 0 65%;
+    background-size: 100vw;
+    color: white;
+}
+
+.mis p {
+    margin: 0 10vw;
+    text-align: center;
+}

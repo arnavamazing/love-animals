@@ -1,0 +1,78 @@
+/*Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Source Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+.form-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+
+.left-title {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.form-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 2px solid rgb(49, 49, 49);
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.form-inputs:focus {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+
+.left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: "Source Sans 3", sans-serif;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.left button:hover {
+    border: 2px solid rgb(49, 49, 49);
+    color: rgb(49, 49, 49);
+    background-color: white;
+}
